@@ -1,1 +1,57 @@
-// TODO
+.banner {
+  background: red;
+  height: 400px;
+}
+
+.postHeader {
+  margin-top: 80px;
+
+  h1 {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    color: var(--heading);
+    letter-spacing: -0.5px;
+    margin-bottom: 24px;
+  }
+
+  svg {
+    margin-right: 8px;
+    color: var(--info);
+  }
+
+  time,
+  span {
+    margin-right: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--info);
+  }
+
+  footer {
+    margin-bottom: 64px;
+  }
+}
+
+.postContent {
+  section {
+    margin-bottom: 48px;
+    font-size: 18px;
+    line-height: 24.2px;
+    text-align: justify;
+    color: var(--body);
+    h2 {
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 140%;
+
+      //text-align: justify;
+      color: var(--heading);
+    }
+    a {
+      color: var(--highlight);
+    }
+  }
+}

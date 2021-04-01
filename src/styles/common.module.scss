@@ -1,1 +1,19 @@
 // TODO
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  //border: 1px solid red;
+
+  //margin-top: 170px;
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 700px;
+    //border: 1px solid purple;
+  }
+}

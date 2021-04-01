@@ -1,1 +1,54 @@
-// TODO
+.articleContainer {
+  article + article {
+    margin-top: 48px;
+  }
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.5;
+
+    color: var(--heading);
+  }
+
+  p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--body);
+    margin-top: 8px;
+  }
+
+  footer {
+    margin-top: 25px;
+    display: flex;
+  }
+
+  time,
+  span {
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--info);
+  }
+  svg {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+  }
+  time {
+    margin-right: 26px;
+  }
+
+  button {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 64px;
+    color: var(--highlight);
+    background: transparent;
+    border: 0;
+  }
+}

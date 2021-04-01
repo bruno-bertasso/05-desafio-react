@@ -1,1 +1,18 @@
-// TODO
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+
+  div {
+    display: flex;
+    //align-items: ;
+    justify-content: flex-start;
+    width: 700px;
+  }
+
+  img {
+    width: 238.62px;
+    height: 25.63px;
+  }
+}
